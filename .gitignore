@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# Maven target directory
+target/
+
+# Gradle build directory
+build/
+
+# Eclipse
+bin/
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Logs
+*.log
