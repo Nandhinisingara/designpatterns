@@ -35,6 +35,9 @@ public class SingletonMain {
 		  
 		  s1.showMessage(); // "Hello from Singleton"
 		  
+		 // System.out.println(s1.hashCode());
+		 // System.out.println(s2.hashCode());
+		  System.out.println(s1 == s2);
 		  System.out.println(s1 == s2); // true — same object
 		  
 		  SingletonBPS s3 = SingletonBPS.getInstance(); SingletonBPS s4 =
