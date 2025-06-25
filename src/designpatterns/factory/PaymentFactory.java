@@ -9,8 +9,7 @@ public class PaymentFactory {
 		if (type.equals("adyen")) {
 			return new AdyenPaymentGateway();
 		} else {
-
-			return new AcapturePaymentGateway();
+			throw new IllegalArgumentException("Invalid payment gateway");
 		}
 
 	}
